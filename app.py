@@ -1,32 +1,25 @@
+import logging
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 from openai import OpenAI
 import os
 
-# ✅ Initialize Flask App (Serve React Frontend)
+# ✅ Initialize Flask App
 app = Flask(__name__, static_folder="frontend/build", static_url_path="")
 CORS(app)
 
-# ✅ Debug: Check if API Key is Loaded
+# ✅ Configure Logging
+LOG_FILE = "error.log"
+logging.basicConfig(filename=LOG_FILE, level=logging.ERROR, format="%(asctime)s - %(levelname)s - %(message)s")
+
+# ✅ Load API Key from Environment Variable
 openai_api_key = os.getenv("OPENAI_API_KEY")
 if not openai_api_key:
-    print("❌ ERROR: API key not found! Ensure it's set in Railway Variables.")
+    logging.error("❌ Missing OpenAI API key! Set it using environment variables.")
     raise ValueError("❌ Missing OpenAI API key! Set it using environment variables.")
-
-print(f"✅ OpenAI API Key Loaded Successfully: {openai_api_key[:5]}... (hidden for security)")
 
 # ✅ Initialize OpenAI Client with API Key
 client = OpenAI(api_key=openai_api_key)
-
-# ✅ Home Route - Serves React Frontend
-@app.route("/", defaults={"path": ""})
-@app.route("/<path:path>")
-def serve_react(path):
-    """Serve React frontend from the build folder."""
-    if path and os.path.exists(os.path.join(app.static_folder, path)):
-        return send_from_directory(app.static_folder, path)
-    else:
-        return send_from_directory(app.static_folder, "index.html")
 
 # ✅ Chat Route - Handles AI Requests
 @app.route("/chat", methods=["POST"])
@@ -34,6 +27,7 @@ def chat():
     try:
         data = request.get_json()
         if not data or "message" not in data:
+            logging.error("❌ No message provided in request.")
             return jsonify({"error": "❌ No message provided"}), 400
 
         user_input = data["message"]
@@ -48,10 +42,11 @@ def chat():
         return jsonify({"response": assistant_reply})
 
     except Exception as e:
+        logging.error(f"❌ OpenAI Error: {str(e)}")
         return jsonify({"error": f"❌ OpenAI Error: {str(e)}"}), 500
 
-# ✅ Run Flask App with Gunicorn Support
+# ✅ Run Flask App
 if __name__ == "__main__":
-    port = int(os.getenv("PORT", 8080))  # 👈 Use Railway's provided port (default: 8080)
+    port = int(os.getenv("PORT", 8080))  # 👈 Use environment variable for Railway
     print(f"🚀 Starting Flask app on port {port}...")
     app.run(debug=True, host="0.0.0.0", port=port)
