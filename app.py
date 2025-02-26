@@ -51,7 +51,11 @@ def chat():
 @app.route('/<path:path>')
 def serve(path):
     logging.info(f"Serving path: {path}")
-    return send_from_directory(app.static_folder, 'index.html')
+    try:
+        return send_from_directory(app.static_folder, 'index.html')
+    except Exception as e:
+        logging.error(f"Error serving index.html: {str(e)}")
+        return f"404: {str(e)}", 404
 
 if __name__ == "__main__":
     port = int(os.getenv("PORT", 8080))
