@@ -21,17 +21,8 @@ CORS(app)  # Allow cross-origin requests if needed
 openai_api_key = os.getenv("OPENAI_API_KEY")
 
 if not openai_api_key:
-    logging.error("❌ OpenAI API key is missing! Set it using environment variables.")
-    raise ValueError("❌ Missing OpenAI API key! Set it using environment variables.")
-
-openai.api_key = openai_api_key  # ✅ Correct OpenAI initialization
-
-print("✅ OpenAI client initialized.")
-
-# ✅ Define a test route to verify the API is running
-@app.route("/", methods=["GET"])
-def home():
-    return jsonify({"message": "🚀 ChatGPT API is running!"})
+    logging.error("❌ OpenAI API Key is missing! Set it in Railway.")
+    raise ValueError("❌ Missing OpenAI API Key! Set it using environment variables.")
 
 # ✅ Route to handle chat requests
 @app.route("/chat", methods=["POST"])
@@ -40,25 +31,20 @@ def chat():
     user_prompt = data.get("prompt", "")
 
     if not user_prompt:
-        return jsonify({"error": "Missing prompt"}), 400
+        return jsonify({"error": "❌ Missing prompt"}), 400
 
-    response = get_chatgpt_response(user_prompt)
-    return jsonify({"response": response})
-
-# ✅ OpenAI API Request Function with Error Handling
-def get_chatgpt_response(prompt):
     try:
         response = openai.ChatCompletion.create(
             model="gpt-4",  # Change to "gpt-3.5-turbo" if needed
-            messages=[{"role": "user", "content": prompt}],
+            messages=[{"role": "user", "content": user_prompt}],
             max_tokens=1000
         )
         assistant_reply = response["choices"][0]["message"]["content"]
-        logging.info(f"OpenAI response: {assistant_reply}")
-        return assistant_reply
-    except openai.error.OpenAIError as e:
-        logging.error(f"❌ OpenAI API error: {e}")
-        return "⚠️ OpenAI API error"
+        return jsonify({"response": assistant_reply})
+
+    except Exception as e:
+        logging.error(f"❌ OpenAI API Error: {str(e)}")
+        return jsonify({"error": f"❌ OpenAI API Error: {str(e)}"}), 500
 
 # ✅ Serve the frontend
 @app.route("/", defaults={"path": ""})
