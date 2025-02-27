@@ -1,0 +1,501 @@
+2025-02-26 09:45:19,370 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 09:45:19,371 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 09:45:19,374 - INFO -  * Restarting with stat
+2025-02-26 09:45:21,146 - WARNING -  * Debugger is active!
+2025-02-26 09:45:21,151 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 09:45:56,717 - INFO - 127.0.0.1 - - [26/Feb/2025 09:45:56] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-26 09:45:56,834 - INFO - 127.0.0.1 - - [26/Feb/2025 09:45:56] "GET /favicon.ico HTTP/1.1" 200 -
+2025-02-26 09:51:35,602 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 09:51:35,602 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 09:51:35,604 - INFO -  * Restarting with stat
+2025-02-26 09:51:37,295 - WARNING -  * Debugger is active!
+2025-02-26 09:51:37,299 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 09:58:50,797 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 09:58:50,797 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 09:58:50,799 - INFO -  * Restarting with stat
+2025-02-26 09:58:52,550 - WARNING -  * Debugger is active!
+2025-02-26 09:58:52,554 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 10:04:41,065 - INFO - 127.0.0.1 - - [26/Feb/2025 10:04:41] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-26 10:04:41,172 - INFO - 127.0.0.1 - - [26/Feb/2025 10:04:41] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2025-02-26 10:18:49,442 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 10:18:49,442 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 10:18:49,444 - INFO -  * Restarting with stat
+2025-02-26 10:18:51,474 - WARNING -  * Debugger is active!
+2025-02-26 10:18:51,479 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 10:26:13,415 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 10:26:13,415 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 10:26:13,417 - INFO -  * Restarting with stat
+2025-02-26 10:26:15,538 - WARNING -  * Debugger is active!
+2025-02-26 10:26:15,544 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 10:26:55,723 - INFO - 127.0.0.1 - - [26/Feb/2025 10:26:55] "GET / HTTP/1.1" 200 -
+2025-02-26 10:26:55,748 - INFO - 127.0.0.1 - - [26/Feb/2025 10:26:55] "GET /static/js/main.58176c1c.js HTTP/1.1" 200 -
+2025-02-26 10:26:55,907 - INFO - 127.0.0.1 - - [26/Feb/2025 10:26:55] "GET /static/css/main.e6c13ad2.css HTTP/1.1" 200 -
+2025-02-26 10:26:56,275 - INFO - 127.0.0.1 - - [26/Feb/2025 10:26:56] "GET /manifest.json HTTP/1.1" 200 -
+2025-02-26 10:26:56,276 - INFO - 127.0.0.1 - - [26/Feb/2025 10:26:56] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2025-02-26 10:26:56,541 - INFO - 127.0.0.1 - - [26/Feb/2025 10:26:56] "GET /logo192.png HTTP/1.1" 200 -
+2025-02-26 10:33:39,377 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 10:33:39,377 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 10:33:39,379 - INFO -  * Restarting with stat
+2025-02-26 10:33:41,524 - WARNING -  * Debugger is active!
+2025-02-26 10:33:41,530 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 10:35:19,921 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 10:35:19,921 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 10:35:19,925 - INFO -  * Restarting with stat
+2025-02-26 10:35:22,057 - WARNING -  * Debugger is active!
+2025-02-26 10:35:22,064 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 10:35:43,894 - INFO - 127.0.0.1 - - [26/Feb/2025 10:35:43] "[36mGET / HTTP/1.1[0m" 304 -
+2025-02-26 10:35:43,908 - INFO - 127.0.0.1 - - [26/Feb/2025 10:35:43] "[36mGET /static/js/main.58176c1c.js HTTP/1.1[0m" 304 -
+2025-02-26 10:35:44,049 - INFO - 127.0.0.1 - - [26/Feb/2025 10:35:44] "[36mGET /static/css/main.e6c13ad2.css HTTP/1.1[0m" 304 -
+2025-02-26 10:35:44,396 - INFO - 127.0.0.1 - - [26/Feb/2025 10:35:44] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2025-02-26 10:35:44,398 - INFO - 127.0.0.1 - - [26/Feb/2025 10:35:44] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+2025-02-26 10:35:44,649 - INFO - 127.0.0.1 - - [26/Feb/2025 10:35:44] "[36mGET /logo192.png HTTP/1.1[0m" 304 -
+2025-02-26 10:38:09,632 - INFO - 127.0.0.1 - - [26/Feb/2025 10:38:09] "[36mGET / HTTP/1.1[0m" 304 -
+2025-02-26 10:38:09,652 - INFO - 127.0.0.1 - - [26/Feb/2025 10:38:09] "[36mGET /static/js/main.58176c1c.js HTTP/1.1[0m" 304 -
+2025-02-26 10:38:09,886 - INFO - 127.0.0.1 - - [26/Feb/2025 10:38:09] "[36mGET /static/css/main.e6c13ad2.css HTTP/1.1[0m" 304 -
+2025-02-26 10:38:10,250 - INFO - 127.0.0.1 - - [26/Feb/2025 10:38:10] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+2025-02-26 10:38:10,252 - INFO - 127.0.0.1 - - [26/Feb/2025 10:38:10] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2025-02-26 10:38:10,503 - INFO - 127.0.0.1 - - [26/Feb/2025 10:38:10] "[36mGET /logo192.png HTTP/1.1[0m" 304 -
+2025-02-26 11:03:49,420 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 11:03:49,420 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 11:03:49,422 - INFO -  * Restarting with stat
+2025-02-26 11:03:51,417 - WARNING -  * Debugger is active!
+2025-02-26 11:03:51,422 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 11:16:07,664 - INFO -  * Detected change in 'c:\\Users\\mro\\Desktop\\ai-support-app\\app.py', reloading
+2025-02-26 11:16:07,757 - INFO -  * Restarting with stat
+2025-02-26 11:16:09,794 - WARNING -  * Debugger is active!
+2025-02-26 11:16:09,800 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 11:16:23,280 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 11:16:23,280 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 11:16:23,281 - INFO -  * Restarting with stat
+2025-02-26 11:16:25,119 - WARNING -  * Debugger is active!
+2025-02-26 11:16:25,124 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 11:16:58,748 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 11:16:58,748 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 11:16:58,751 - INFO -  * Restarting with stat
+2025-02-26 11:17:00,486 - WARNING -  * Debugger is active!
+2025-02-26 11:17:00,493 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 11:17:17,071 - INFO - 127.0.0.1 - - [26/Feb/2025 11:17:17] "GET / HTTP/1.1" 200 -
+2025-02-26 11:17:17,182 - INFO - 127.0.0.1 - - [26/Feb/2025 11:17:17] "GET /static/js/main.58176c1c.js HTTP/1.1" 200 -
+2025-02-26 11:17:17,249 - INFO - 127.0.0.1 - - [26/Feb/2025 11:17:17] "GET /static/css/main.e6c13ad2.css HTTP/1.1" 200 -
+2025-02-26 11:17:17,577 - INFO - 127.0.0.1 - - [26/Feb/2025 11:17:17] "GET /manifest.json HTTP/1.1" 200 -
+2025-02-26 11:17:17,577 - INFO - 127.0.0.1 - - [26/Feb/2025 11:17:17] "GET /favicon.ico HTTP/1.1" 200 -
+2025-02-26 11:17:17,839 - INFO - 127.0.0.1 - - [26/Feb/2025 11:17:17] "GET /logo192.png HTTP/1.1" 200 -
+2025-02-26 11:20:15,116 - INFO -  * Detected change in 'c:\\Users\\mro\\Desktop\\ai-support-app\\app.py', reloading
+2025-02-26 11:20:15,294 - INFO -  * Restarting with stat
+2025-02-26 11:20:17,354 - WARNING -  * Debugger is active!
+2025-02-26 11:20:17,362 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 11:21:07,867 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 11:21:07,868 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 11:21:07,870 - INFO -  * Restarting with stat
+2025-02-26 11:21:09,668 - WARNING -  * Debugger is active!
+2025-02-26 11:21:09,674 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 11:21:43,054 - INFO - Serving path: 
+2025-02-26 11:21:43,121 - INFO - 127.0.0.1 - - [26/Feb/2025 11:21:43] "GET / HTTP/1.1" 200 -
+2025-02-26 11:21:43,139 - INFO - 127.0.0.1 - - [26/Feb/2025 11:21:43] "GET /static/js/main.58176c1c.js HTTP/1.1" 200 -
+2025-02-26 11:21:43,323 - INFO - 127.0.0.1 - - [26/Feb/2025 11:21:43] "GET /static/css/main.e6c13ad2.css HTTP/1.1" 200 -
+2025-02-26 11:21:43,649 - INFO - 127.0.0.1 - - [26/Feb/2025 11:21:43] "GET /favicon.ico HTTP/1.1" 200 -
+2025-02-26 11:21:43,651 - INFO - 127.0.0.1 - - [26/Feb/2025 11:21:43] "GET /manifest.json HTTP/1.1" 200 -
+2025-02-26 11:21:43,910 - INFO - 127.0.0.1 - - [26/Feb/2025 11:21:43] "GET /logo192.png HTTP/1.1" 200 -
+2025-02-26 11:24:02,884 - INFO -  * Detected change in 'C:\\Users\\mro\\Desktop\\ai-support-app\\app.py', reloading
+2025-02-26 11:24:02,994 - INFO -  * Restarting with stat
+2025-02-26 11:24:05,040 - WARNING -  * Debugger is active!
+2025-02-26 11:24:05,046 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 11:24:22,377 - INFO - Serving path: 
+2025-02-26 11:24:22,437 - INFO - 127.0.0.1 - - [26/Feb/2025 11:24:22] "[36mGET / HTTP/1.1[0m" 304 -
+2025-02-26 11:24:22,452 - INFO - 127.0.0.1 - - [26/Feb/2025 11:24:22] "[36mGET /static/js/main.58176c1c.js HTTP/1.1[0m" 304 -
+2025-02-26 11:24:22,633 - INFO - 127.0.0.1 - - [26/Feb/2025 11:24:22] "[36mGET /static/css/main.e6c13ad2.css HTTP/1.1[0m" 304 -
+2025-02-26 11:24:22,973 - INFO - 127.0.0.1 - - [26/Feb/2025 11:24:22] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2025-02-26 11:24:22,974 - INFO - 127.0.0.1 - - [26/Feb/2025 11:24:22] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+2025-02-26 11:24:23,221 - INFO - 127.0.0.1 - - [26/Feb/2025 11:24:23] "[36mGET /logo192.png HTTP/1.1[0m" 304 -
+2025-02-26 11:24:37,467 - INFO - Serving path: 
+2025-02-26 11:24:37,468 - INFO - 127.0.0.1 - - [26/Feb/2025 11:24:37] "[36mGET / HTTP/1.1[0m" 304 -
+2025-02-26 11:24:37,778 - INFO - 127.0.0.1 - - [26/Feb/2025 11:24:37] "[36mGET /static/css/main.e6c13ad2.css HTTP/1.1[0m" 304 -
+2025-02-26 11:24:37,780 - INFO - 127.0.0.1 - - [26/Feb/2025 11:24:37] "[36mGET /static/js/main.58176c1c.js HTTP/1.1[0m" 304 -
+2025-02-26 11:24:37,792 - INFO - 127.0.0.1 - - [26/Feb/2025 11:24:37] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+2025-02-26 11:24:38,043 - INFO - 127.0.0.1 - - [26/Feb/2025 11:24:38] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2025-02-26 11:24:38,104 - INFO - 127.0.0.1 - - [26/Feb/2025 11:24:38] "[36mGET /logo192.png HTTP/1.1[0m" 304 -
+2025-02-26 11:26:03,722 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 11:26:03,722 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 11:26:03,724 - INFO -  * Restarting with stat
+2025-02-26 11:26:05,461 - WARNING -  * Debugger is active!
+2025-02-26 11:26:05,466 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 11:27:22,332 - INFO -  * Detected change in 'C:\\Users\\mro\\Desktop\\ai-support-app\\app.py', reloading
+2025-02-26 11:27:22,403 - INFO -  * Restarting with stat
+2025-02-26 11:27:24,630 - WARNING -  * Debugger is active!
+2025-02-26 11:27:24,636 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 11:28:08,263 - INFO -  * Detected change in 'C:\\Users\\mro\\Desktop\\ai-support-app\\app.py', reloading
+2025-02-26 11:28:08,345 - INFO -  * Restarting with stat
+2025-02-26 11:28:10,474 - WARNING -  * Debugger is active!
+2025-02-26 11:28:10,479 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 11:29:42,510 - INFO -  * Detected change in 'C:\\Users\\mro\\Desktop\\ai-support-app\\app.py', reloading
+2025-02-26 11:29:42,621 - INFO -  * Restarting with stat
+2025-02-26 11:29:44,770 - WARNING -  * Debugger is active!
+2025-02-26 11:29:44,776 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 11:31:30,358 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 11:31:30,358 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 11:31:30,360 - INFO -  * Restarting with stat
+2025-02-26 11:31:32,080 - WARNING -  * Debugger is active!
+2025-02-26 11:31:32,085 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 11:38:15,641 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 11:38:15,641 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 11:38:15,643 - INFO -  * Restarting with stat
+2025-02-26 11:38:17,432 - WARNING -  * Debugger is active!
+2025-02-26 11:38:17,437 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 11:38:42,223 - INFO - Serving path: 
+2025-02-26 11:38:42,288 - INFO - 127.0.0.1 - - [26/Feb/2025 11:38:42] "GET / HTTP/1.1" 200 -
+2025-02-26 11:38:42,303 - INFO - 127.0.0.1 - - [26/Feb/2025 11:38:42] "GET /static/js/main.58176c1c.js HTTP/1.1" 200 -
+2025-02-26 11:38:42,493 - INFO - 127.0.0.1 - - [26/Feb/2025 11:38:42] "GET /static/css/main.e6c13ad2.css HTTP/1.1" 200 -
+2025-02-26 11:38:42,820 - INFO - 127.0.0.1 - - [26/Feb/2025 11:38:42] "GET /favicon.ico HTTP/1.1" 200 -
+2025-02-26 11:38:42,822 - INFO - 127.0.0.1 - - [26/Feb/2025 11:38:42] "GET /manifest.json HTTP/1.1" 200 -
+2025-02-26 11:38:43,085 - INFO - 127.0.0.1 - - [26/Feb/2025 11:38:43] "GET /logo192.png HTTP/1.1" 200 -
+2025-02-26 11:40:28,146 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 11:40:28,146 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 11:40:28,148 - INFO -  * Restarting with stat
+2025-02-26 11:40:29,847 - WARNING -  * Debugger is active!
+2025-02-26 11:40:29,853 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 11:46:19,390 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 11:46:19,391 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 11:46:19,393 - INFO -  * Restarting with stat
+2025-02-26 11:46:21,320 - WARNING -  * Debugger is active!
+2025-02-26 11:46:21,328 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 11:46:42,289 - INFO - Serving path: 
+2025-02-26 11:46:42,359 - INFO - 127.0.0.1 - - [26/Feb/2025 11:46:42] "GET / HTTP/1.1" 200 -
+2025-02-26 11:46:42,379 - INFO - 127.0.0.1 - - [26/Feb/2025 11:46:42] "GET /static/js/main.58176c1c.js HTTP/1.1" 200 -
+2025-02-26 11:46:42,541 - INFO - 127.0.0.1 - - [26/Feb/2025 11:46:42] "GET /static/css/main.e6c13ad2.css HTTP/1.1" 200 -
+2025-02-26 11:46:42,905 - INFO - 127.0.0.1 - - [26/Feb/2025 11:46:42] "GET /manifest.json HTTP/1.1" 200 -
+2025-02-26 11:46:42,906 - INFO - 127.0.0.1 - - [26/Feb/2025 11:46:42] "GET /favicon.ico HTTP/1.1" 200 -
+2025-02-26 11:46:43,162 - INFO - 127.0.0.1 - - [26/Feb/2025 11:46:43] "GET /logo192.png HTTP/1.1" 200 -
+2025-02-26 11:51:48,205 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 11:51:48,206 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 11:51:48,208 - INFO -  * Restarting with stat
+2025-02-26 11:51:50,027 - WARNING -  * Debugger is active!
+2025-02-26 11:51:50,033 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 11:59:09,841 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 11:59:09,842 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 11:59:09,843 - INFO -  * Restarting with stat
+2025-02-26 11:59:11,798 - WARNING -  * Debugger is active!
+2025-02-26 11:59:11,803 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 12:13:29,826 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 12:13:29,827 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 12:13:29,829 - INFO -  * Restarting with stat
+2025-02-26 12:13:31,811 - WARNING -  * Debugger is active!
+2025-02-26 12:13:31,816 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 12:16:44,531 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 12:16:44,531 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 12:16:44,534 - INFO -  * Restarting with stat
+2025-02-26 12:16:46,596 - WARNING -  * Debugger is active!
+2025-02-26 12:16:46,601 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 12:16:59,879 - INFO - Serving path: 
+2025-02-26 12:16:59,946 - INFO - 127.0.0.1 - - [26/Feb/2025 12:16:59] "GET / HTTP/1.1" 200 -
+2025-02-26 12:16:59,965 - INFO - 127.0.0.1 - - [26/Feb/2025 12:16:59] "GET /static/js/main.df15bbe0.js HTTP/1.1" 200 -
+2025-02-26 12:17:00,147 - INFO - 127.0.0.1 - - [26/Feb/2025 12:17:00] "GET /static/css/main.f855e6bc.css HTTP/1.1" 200 -
+2025-02-26 12:17:00,521 - INFO - 127.0.0.1 - - [26/Feb/2025 12:17:00] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+2025-02-26 12:17:00,522 - INFO - 127.0.0.1 - - [26/Feb/2025 12:17:00] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2025-02-26 12:17:00,783 - INFO - 127.0.0.1 - - [26/Feb/2025 12:17:00] "[36mGET /logo192.png HTTP/1.1[0m" 304 -
+2025-02-26 12:17:05,056 - INFO - Received chat request: {'message': 'test'}
+2025-02-26 12:17:06,124 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-26 12:17:06,147 - INFO - OpenAI response: Hello! How can I assist you today?
+2025-02-26 12:17:06,148 - INFO - 127.0.0.1 - - [26/Feb/2025 12:17:06] "POST /chat HTTP/1.1" 200 -
+2025-02-26 12:19:26,285 - INFO - Serving path: 
+2025-02-26 12:19:26,286 - INFO - 127.0.0.1 - - [26/Feb/2025 12:19:26] "[36mGET / HTTP/1.1[0m" 304 -
+2025-02-26 12:19:26,305 - INFO - 127.0.0.1 - - [26/Feb/2025 12:19:26] "[36mGET /static/js/main.df15bbe0.js HTTP/1.1[0m" 304 -
+2025-02-26 12:19:26,665 - INFO - 127.0.0.1 - - [26/Feb/2025 12:19:26] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+2025-02-26 12:19:26,671 - INFO - 127.0.0.1 - - [26/Feb/2025 12:19:26] "[36mGET /logo192.png HTTP/1.1[0m" 304 -
+2025-02-26 12:19:33,465 - INFO - Serving path: 
+2025-02-26 12:19:33,466 - INFO - 127.0.0.1 - - [26/Feb/2025 12:19:33] "[36mGET / HTTP/1.1[0m" 304 -
+2025-02-26 12:19:33,481 - INFO - 127.0.0.1 - - [26/Feb/2025 12:19:33] "GET /static/css/main.f855e6bc.css HTTP/1.1" 200 -
+2025-02-26 12:19:33,734 - INFO - 127.0.0.1 - - [26/Feb/2025 12:19:33] "[36mGET /static/js/main.df15bbe0.js HTTP/1.1[0m" 304 -
+2025-02-26 12:19:33,790 - INFO - 127.0.0.1 - - [26/Feb/2025 12:19:33] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+2025-02-26 12:19:34,095 - INFO - 127.0.0.1 - - [26/Feb/2025 12:19:34] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2025-02-26 12:19:34,099 - INFO - 127.0.0.1 - - [26/Feb/2025 12:19:34] "[36mGET /logo192.png HTTP/1.1[0m" 304 -
+2025-02-26 12:27:57,675 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 12:27:57,675 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 12:27:57,678 - INFO -  * Restarting with stat
+2025-02-26 12:27:59,465 - WARNING -  * Debugger is active!
+2025-02-26 12:27:59,472 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 12:41:45,194 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-26 12:41:45,195 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-26 12:41:45,198 - INFO -  * Restarting with stat
+2025-02-26 12:41:46,948 - WARNING -  * Debugger is active!
+2025-02-26 12:41:46,955 - INFO -  * Debugger PIN: 685-065-988
+2025-02-26 12:42:13,253 - INFO - Serving path: 
+2025-02-26 12:42:13,334 - INFO - 127.0.0.1 - - [26/Feb/2025 12:42:13] "GET / HTTP/1.1" 200 -
+2025-02-26 12:42:13,452 - INFO - 127.0.0.1 - - [26/Feb/2025 12:42:13] "GET /static/js/main.df15bbe0.js HTTP/1.1" 200 -
+2025-02-26 12:42:13,527 - INFO - 127.0.0.1 - - [26/Feb/2025 12:42:13] "GET /static/css/main.056c32b5.css HTTP/1.1" 200 -
+2025-02-26 12:42:13,884 - INFO - 127.0.0.1 - - [26/Feb/2025 12:42:13] "[36mGET /manifest.json HTTP/1.1[0m" 304 -
+2025-02-26 12:42:13,886 - INFO - 127.0.0.1 - - [26/Feb/2025 12:42:13] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2025-02-26 12:42:14,141 - INFO - 127.0.0.1 - - [26/Feb/2025 12:42:14] "[36mGET /logo192.png HTTP/1.1[0m" 304 -
+2025-02-27 12:18:25,635 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 12:18:25,779 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-27 12:18:25,779 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 12:18:25,784 - INFO -  * Restarting with stat
+2025-02-27 12:18:30,473 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 12:18:30,522 - WARNING -  * Debugger is active!
+2025-02-27 12:18:30,533 - INFO -  * Debugger PIN: 685-065-988
+2025-02-27 12:22:22,366 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 12:22:22,464 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-27 12:22:22,465 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 12:22:22,470 - INFO -  * Restarting with stat
+2025-02-27 12:22:26,513 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 12:22:26,547 - WARNING -  * Debugger is active!
+2025-02-27 12:22:26,556 - INFO -  * Debugger PIN: 685-065-988
+2025-02-27 12:28:54,150 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 12:28:54,227 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-27 12:28:54,227 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 12:28:54,230 - INFO -  * Restarting with stat
+2025-02-27 12:28:57,999 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 12:28:58,043 - WARNING -  * Debugger is active!
+2025-02-27 12:28:58,056 - INFO -  * Debugger PIN: 685-065-988
+2025-02-27 12:31:43,945 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 12:31:43,991 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-27 12:31:43,992 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 12:31:43,995 - INFO -  * Restarting with stat
+2025-02-27 12:31:48,223 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 12:31:48,278 - WARNING -  * Debugger is active!
+2025-02-27 12:31:48,293 - INFO -  * Debugger PIN: 685-065-988
+2025-02-27 12:33:21,396 - INFO -  * Detected change in 'C:\\Users\\mro\\Desktop\\ai-support-app\\app.py', reloading
+2025-02-27 12:33:21,601 - INFO -  * Restarting with stat
+2025-02-27 12:33:25,147 - WARNING -  * Debugger is active!
+2025-02-27 12:33:25,160 - INFO -  * Debugger PIN: 685-065-988
+2025-02-27 12:33:58,149 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-27 12:33:58,150 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 12:33:58,151 - INFO -  * Restarting with stat
+2025-02-27 12:34:01,439 - WARNING -  * Debugger is active!
+2025-02-27 12:34:01,453 - INFO -  * Debugger PIN: 685-065-988
+2025-02-27 12:35:19,431 - INFO -  * Detected change in 'C:\\Users\\mro\\Desktop\\ai-support-app\\app.py', reloading
+2025-02-27 12:35:19,660 - INFO -  * Restarting with stat
+2025-02-27 12:35:23,351 - WARNING -  * Debugger is active!
+2025-02-27 12:35:23,359 - INFO -  * Debugger PIN: 685-065-988
+2025-02-27 12:35:40,043 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-27 12:35:40,043 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 12:35:40,046 - INFO -  * Restarting with stat
+2025-02-27 12:35:43,257 - WARNING -  * Debugger is active!
+2025-02-27 12:35:43,268 - INFO -  * Debugger PIN: 685-065-988
+2025-02-27 12:37:41,043 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-27 12:37:41,043 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 12:37:41,045 - INFO -  * Restarting with stat
+2025-02-27 12:37:44,279 - WARNING -  * Debugger is active!
+2025-02-27 12:37:44,291 - INFO -  * Debugger PIN: 685-065-988
+2025-02-27 12:40:37,679 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-27 12:40:37,679 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 12:40:37,682 - INFO -  * Restarting with stat
+2025-02-27 12:40:41,864 - WARNING -  * Debugger is active!
+2025-02-27 12:40:41,871 - INFO -  * Debugger PIN: 685-065-988
+2025-02-27 12:42:18,399 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-27 12:42:18,400 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 12:45:02,900 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.21:5000
+2025-02-27 12:45:02,901 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 12:45:52,797 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.21:5000
+2025-02-27 12:45:52,797 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 12:46:05,345 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-27 12:46:05,345 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 12:51:34,803 - INFO - 127.0.0.1 - - [27/Feb/2025 12:51:34] "[33mGET /chat HTTP/1.1[0m" 404 -
+2025-02-27 12:51:35,023 - INFO - 127.0.0.1 - - [27/Feb/2025 12:51:35] "GET /favicon.ico HTTP/1.1" 200 -
+2025-02-27 12:51:49,867 - INFO - Received chat request: {'message': 'Hello!'}
+2025-02-27 12:51:49,867 - WARNING - \u26a0\ufe0f No scraped data found.
+2025-02-27 12:51:50,734 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-27 12:51:50,763 - INFO - OpenAI response: Hello! How can I assist you today?
+2025-02-27 12:51:50,763 - INFO - 127.0.0.1 - - [27/Feb/2025 12:51:50] "POST /chat HTTP/1.1" 200 -
+2025-02-27 12:52:45,427 - INFO - 127.0.0.1 - - [27/Feb/2025 12:52:45] "[33mGET /chat HTTP/1.1[0m" 404 -
+2025-02-27 12:55:46,763 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 12:55:46,810 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-27 12:55:46,810 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 12:55:46,812 - INFO -  * Restarting with stat
+2025-02-27 12:55:49,654 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 12:55:49,679 - WARNING -  * Debugger is active!
+2025-02-27 12:55:49,683 - INFO -  * Debugger PIN: 685-065-988
+2025-02-27 12:56:01,167 - INFO - 127.0.0.1 - - [27/Feb/2025 12:56:01] "[33mGET /chat HTTP/1.1[0m" 404 -
+2025-02-27 12:56:04,140 - INFO - 127.0.0.1 - - [27/Feb/2025 12:56:04] "[33mGET /chat HTTP/1.1[0m" 404 -
+2025-02-27 12:56:04,201 - INFO - 127.0.0.1 - - [27/Feb/2025 12:56:04] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2025-02-27 12:56:09,251 - INFO -  * Detected change in 'C:\\Users\\mro\\Desktop\\ai-support-app\\app.py', reloading
+2025-02-27 12:56:09,423 - INFO -  * Restarting with stat
+2025-02-27 12:56:12,883 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 12:56:12,909 - WARNING -  * Debugger is active!
+2025-02-27 12:56:12,916 - INFO -  * Debugger PIN: 685-065-988
+2025-02-27 12:56:42,254 - INFO - Received chat request: {'message': 'Hello!'}
+2025-02-27 12:56:42,254 - WARNING - \u26a0\ufe0f No scraped data found.
+2025-02-27 12:56:42,762 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-27 12:56:42,765 - INFO - OpenAI response: Hello! How can I assist you today?
+2025-02-27 12:56:42,765 - INFO - 127.0.0.1 - - [27/Feb/2025 12:56:42] "POST /chat HTTP/1.1" 200 -
+2025-02-27 12:57:41,869 - INFO - 127.0.0.1 - - [27/Feb/2025 12:57:41] "[33mGET /chat HTTP/1.1[0m" 404 -
+2025-02-27 12:57:42,985 - INFO - 127.0.0.1 - - [27/Feb/2025 12:57:42] "[33mGET /chat HTTP/1.1[0m" 404 -
+2025-02-27 12:57:48,499 - INFO - 127.0.0.1 - - [27/Feb/2025 12:57:48] "[33mGET /chat HTTP/1.1[0m" 404 -
+2025-02-27 12:57:49,333 - INFO - 127.0.0.1 - - [27/Feb/2025 12:57:49] "[33mGET /chat HTTP/1.1[0m" 404 -
+2025-02-27 12:57:49,380 - INFO - 127.0.0.1 - - [27/Feb/2025 12:57:49] "GET /favicon.ico HTTP/1.1" 200 -
+2025-02-27 13:00:23,843 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 13:00:23,898 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-27 13:00:23,898 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 13:00:23,900 - INFO -  * Restarting with stat
+2025-02-27 13:00:27,330 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 13:00:27,356 - WARNING -  * Debugger is active!
+2025-02-27 13:00:27,363 - INFO -  * Debugger PIN: 685-065-988
+2025-02-27 13:00:32,578 - INFO - 127.0.0.1 - - [27/Feb/2025 13:00:32] "[33mGET /chat HTTP/1.1[0m" 404 -
+2025-02-27 13:00:32,640 - INFO - 127.0.0.1 - - [27/Feb/2025 13:00:32] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2025-02-27 13:00:33,650 - INFO - 127.0.0.1 - - [27/Feb/2025 13:00:33] "[33mGET /chat HTTP/1.1[0m" 404 -
+2025-02-27 13:00:33,716 - INFO - 127.0.0.1 - - [27/Feb/2025 13:00:33] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2025-02-27 13:00:33,842 - INFO - 127.0.0.1 - - [27/Feb/2025 13:00:33] "[33mGET /chat HTTP/1.1[0m" 404 -
+2025-02-27 13:00:33,909 - INFO - 127.0.0.1 - - [27/Feb/2025 13:00:33] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2025-02-27 13:00:34,068 - INFO - 127.0.0.1 - - [27/Feb/2025 13:00:34] "[33mGET /chat HTTP/1.1[0m" 404 -
+2025-02-27 13:00:34,138 - INFO - 127.0.0.1 - - [27/Feb/2025 13:00:34] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2025-02-27 13:00:34,301 - INFO - 127.0.0.1 - - [27/Feb/2025 13:00:34] "[33mGET /chat HTTP/1.1[0m" 404 -
+2025-02-27 13:00:34,374 - INFO - 127.0.0.1 - - [27/Feb/2025 13:00:34] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2025-02-27 13:00:34,472 - INFO - 127.0.0.1 - - [27/Feb/2025 13:00:34] "[33mGET /chat HTTP/1.1[0m" 404 -
+2025-02-27 13:00:34,544 - INFO - 127.0.0.1 - - [27/Feb/2025 13:00:34] "[36mGET /favicon.ico HTTP/1.1[0m" 304 -
+2025-02-27 13:02:22,316 - INFO - 127.0.0.1 - - [27/Feb/2025 13:02:22] "[33mGET /chat HTTP/1.1[0m" 404 -
+2025-02-27 13:03:08,244 - INFO - 127.0.0.1 - - [27/Feb/2025 13:03:08] "[33mGET /chat HTTP/1.1[0m" 404 -
+2025-02-27 13:03:08,358 - INFO - 127.0.0.1 - - [27/Feb/2025 13:03:08] "GET /favicon.ico HTTP/1.1" 200 -
+2025-02-27 13:05:19,373 - INFO -  * Detected change in 'C:\\Users\\mro\\Desktop\\ai-support-app\\app.py', reloading
+2025-02-27 13:05:19,505 - INFO -  * Restarting with stat
+2025-02-27 13:05:23,677 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 13:05:23,699 - WARNING -  * Debugger is active!
+2025-02-27 13:05:23,705 - INFO -  * Debugger PIN: 685-065-988
+2025-02-27 13:05:25,408 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 13:05:25,448 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-27 13:05:25,449 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 13:05:25,451 - INFO -  * Restarting with stat
+2025-02-27 13:05:28,983 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 13:05:29,002 - WARNING -  * Debugger is active!
+2025-02-27 13:05:29,009 - INFO -  * Debugger PIN: 685-065-988
+2025-02-27 13:06:10,935 - INFO - Serving path: 
+2025-02-27 13:06:10,936 - ERROR - Error serving index.html: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-27 13:06:10,937 - INFO - 127.0.0.1 - - [27/Feb/2025 13:06:10] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-27 13:06:17,241 - INFO - Serving path: 
+2025-02-27 13:06:17,242 - ERROR - Error serving index.html: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2025-02-27 13:06:17,242 - INFO - 127.0.0.1 - - [27/Feb/2025 13:06:17] "[33mGET / HTTP/1.1[0m" 404 -
+2025-02-27 13:11:41,101 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 13:11:41,142 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-27 13:11:41,142 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 13:11:41,145 - INFO -  * Restarting with stat
+2025-02-27 13:11:44,258 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 13:11:44,307 - WARNING -  * Debugger is active!
+2025-02-27 13:11:44,316 - INFO -  * Debugger PIN: 685-065-988
+2025-02-27 13:11:52,511 - INFO - Serving path: 
+2025-02-27 13:11:52,536 - INFO - 127.0.0.1 - - [27/Feb/2025 13:11:52] "GET / HTTP/1.1" 200 -
+2025-02-27 13:11:52,591 - INFO - 127.0.0.1 - - [27/Feb/2025 13:11:52] "GET /static/css/main.056c32b5.css HTTP/1.1" 200 -
+2025-02-27 13:11:52,801 - INFO - 127.0.0.1 - - [27/Feb/2025 13:11:52] "GET /static/js/main.df15bbe0.js HTTP/1.1" 200 -
+2025-02-27 13:11:52,902 - INFO - 127.0.0.1 - - [27/Feb/2025 13:11:52] "GET /manifest.json HTTP/1.1" 200 -
+2025-02-27 13:11:52,927 - INFO - 127.0.0.1 - - [27/Feb/2025 13:11:52] "GET /logo192.png HTTP/1.1" 200 -
+2025-02-27 13:19:57,928 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 13:19:57,978 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.0.0.21:8080
+2025-02-27 13:19:57,978 - INFO - [33mPress CTRL+C to quit[0m
+2025-02-27 13:19:57,980 - INFO -  * Restarting with stat
+2025-02-27 13:20:01,128 - INFO - \U0001f680 Starting Flask app on port 8080...
+2025-02-27 13:20:01,154 - WARNING -  * Debugger is active!
+2025-02-27 13:20:01,157 - INFO -  * Debugger PIN: 685-065-988
