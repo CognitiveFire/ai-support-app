@@ -13,9 +13,19 @@ logging.basicConfig(filename=LOG_FILE, level=logging.INFO, format="%(asctime)s -
 
 print("🚀 Importing dependencies and setting up Flask app...")
 
-# ✅ Initialize Flask App
-app = Flask(__name__, static_folder="frontend/build", static_url_path="")
+# ✅ Initialize Flask App (Fixed for React Frontend)
+app = Flask(__name__, static_folder="frontend/build", static_url_path="/")
 CORS(app)  # Allow cross-origin requests
+
+# ✅ Ensure React Frontend is Served Correctly
+@app.route("/", defaults={"path": ""})
+@app.route("/<path:path>")
+def serve(path):
+    if path != "" and os.path.exists(os.path.join(app.static_folder, path)):
+        return send_from_directory(app.static_folder, path)
+    else:
+        return send_from_directory(app.static_folder, "index.html")
+
 
 # ✅ Load OpenAI API Key from Railway environment variables
 openai_api_key = os.getenv("OPENAI_API_KEY")
