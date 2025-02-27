@@ -34,11 +34,10 @@ def chat():
         return jsonify({"error": "❌ Missing prompt"}), 400
 
     try:
-      response = client.chat.completions.create(
-    model="gpt-4",
-    messages=[{"role": "user", "content": prompt}],
-    max_tokens=1000
-)
+        response = openai.ChatCompletion.create(
+            model="gpt-4",
+            messages=[{"role": "user", "content": user_prompt}],
+            max_tokens=1000
         )
         assistant_reply = response["choices"][0]["message"]["content"]
         return jsonify({"response": assistant_reply})
