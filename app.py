@@ -20,11 +20,12 @@ CORS(app)  # Allow cross-origin requests
 # ✅ Ensure React Frontend is Served Correctly
 @app.route("/", defaults={"path": ""})
 @app.route("/<path:path>")
-def serve(path):
+def serve_react_app(path):
     if path != "" and os.path.exists(os.path.join(app.static_folder, path)):
         return send_from_directory(app.static_folder, path)
     else:
         return send_from_directory(app.static_folder, "index.html")
+
 
 
 # ✅ Load OpenAI API Key from Railway environment variables
