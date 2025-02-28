@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css'; // Deploy confirmed March 2025
+import './App.css'; // Fixed payload March 2025
 
 function App() {
   const [message, setMessage] = useState('');
@@ -13,7 +13,7 @@ function App() {
 
     try {
       console.log('Sending message:', message);
-      const payload = { prompt: message };
+      const payload = { prompt: message }; // Changed from "message" to "prompt"
       console.log('Payload before JSON:', payload);
       const body = JSON.stringify(payload);
       console.log('Body after JSON:', body);
