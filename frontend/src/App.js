@@ -2,24 +2,24 @@ import React, { useState } from 'react';
 import './App.css';
 
 function App() {
-  const [message, setMessage] = useState('');
-  const [response, setResponse] = useState('');
+  const [message, setMessage] = useState(''); // Stores what you type
+  const [response, setResponse] = useState(''); // Stores Flask’s reply
 
   const sendMessage = async () => {
     try {
       console.log('Sending:', message);
-      const res = await fetch('/chat', {
+      const res = await fetch('http://localhost:8080/chat', { // Changed to full URL
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message }),
+        body: JSON.stringify({ prompt: message }), // Flask expects "prompt"
       });
       console.log('Response status:', res.status);
       const data = await res.json();
       console.log('Response data:', data);
-      setResponse(data.response || data.error);
+      setResponse(data.response); // Save the reply to show it
     } catch (error) {
-      console.error('Fetch error:', error);
-      setResponse('Error connecting to server');
+      console.log('Error:', error);
+      setResponse('Oops, something went wrong!'); // Show error to user
     }
   };
 
