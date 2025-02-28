@@ -2,37 +2,41 @@ import React, { useState } from 'react';
 import './App.css';
 
 function App() {
-  const [message, setMessage] = useState(''); // Stores what you type
-  const [response, setResponse] = useState(''); // Stores the chatbot’s reply
+  const [message, setMessage] = useState('');
+  const [response, setResponse] = useState('');
 
   const sendMessage = async () => {
-    if (!message) { // Check if you typed something
+    if (!message) {
       setResponse('Please type a message first!');
       return;
     }
 
     try {
-      console.log('Sending:', message); // Show what you typed
-      const payload = { prompt: message }; // Create the data to send
-      console.log('Payload:', payload); // Log the exact object
-      const backendUrl = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8080'; // Get URL from .env
+      console.log('Sending message:', message);
+      const payload = { prompt: message };
+      console.log('Payload before JSON:', payload);
+      const body = JSON.stringify(payload);
+      console.log('Body after JSON:', body);
+      const backendUrl = process.env.REACT_APP_BACKEND_URL || 'http://localhost:8080';
+      console.log('Fetching URL:', `${backendUrl}/chat`);
+
       const res = await fetch(`${backendUrl}/chat`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' }, // Tell Flask it’s JSON
-        body: JSON.stringify(payload), // Send { "prompt": "your message" }
+        headers: { 'Content-Type': 'application/json' },
+        body: body,
       });
 
-      console.log('Response status:', res.status); // Show if it worked (200) or failed (400)
-      const data = await res.json(); // Get Flask’s reply
-      console.log('Response data:', data); // Log the full response
+      console.log('Response status:', res.status);
+      const data = await res.json();
+      console.log('Response data:', data);
 
       if (res.status === 200) {
-        setResponse(data.response); // Show ChatGPT’s answer
+        setResponse(data.response);
       } else {
-        setResponse(`Error: ${data.error}`); // Show Flask’s error (e.g., "Missing prompt")
+        setResponse(`Error: ${data.error}`);
       }
     } catch (error) {
-      console.log('Error:', error); // Log network problems
+      console.log('Fetch error:', error);
       setResponse('Oops, something went wrong! Check your connection.');
     }
   };
@@ -42,14 +46,14 @@ function App() {
       <h1>Chatbot</h1>
       <textarea
         value={message}
-        onChange={(e) => setMessage(e.target.value)} // Update message as you type
+        onChange={(e) => setMessage(e.target.value)}
         placeholder="Type your message..."
-        rows="4" // Make it taller
-        style={{ width: '300px', margin: '10px' }} // Basic styling
+        rows="4"
+        style={{ width: '300px', margin: '10px' }}
       />
       <br />
       <button onClick={sendMessage}>Send</button>
-      <p>{response}</p> // Show the reply or error
+      <p>{response}</p>
     </div>
   );
 }
