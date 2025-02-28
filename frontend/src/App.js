@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './App.css'; // Forced redeploy
+import './App.css'; // Deploy confirmed March 2025
 
 function App() {
   const [message, setMessage] = useState('');
