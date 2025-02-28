@@ -15,7 +15,7 @@ print("🚀 Importing dependencies and setting up Flask app...")
 
 # ✅ Initialize Flask App (Fixed for React Frontend)
 app = Flask(__name__, static_folder="frontend/build", static_url_path="/")
-CORS(app)  # Allow cross-origin requests
+CORS(app, resources={r"/chat": {"origins": "https://your-frontend.up.railway.app"}})  # Replace with your frontend URL
 
 # ✅ Ensure React Frontend is Served Correctly
 @app.route("/", defaults={"path": ""})
@@ -25,8 +25,6 @@ def serve_react_app(path):
         return send_from_directory(app.static_folder, path)
     else:
         return send_from_directory(app.static_folder, "index.html")
-
-
 
 # ✅ Load OpenAI API Key from Railway environment variables
 openai_api_key = os.getenv("OPENAI_API_KEY")
@@ -68,18 +66,23 @@ threading.Thread(target=keep_awake, args=(railway_url,), daemon=True).start()
 def home():
     return jsonify({"message": "🚀 ChatGPT API is running!"})
 
-# ✅ Chatbot Endpoint
+# ✅ Chatbot Endpoint with Debug Logs
 @app.route("/chat", methods=["POST"])
 def chat():
     try:
+        print("Request headers:", request.headers)  # Debug
+        print("Raw request body:", request.get_data(as_text=True))  # Debug
+        data = request.get_json(force=True)  # Force JSON parsing
+        print("Parsed data:", data)  # Debug
         logging.info("🔹 Received a request at /chat")
-        data = request.get_json()
 
         if not data or "prompt" not in data:
+            print("No prompt found!")  # Debug
             logging.error("❌ No prompt received")
             return jsonify({"error": "Missing prompt"}), 400
 
         user_prompt = data["prompt"]
+        print("Processing prompt:", user_prompt)  # Debug
         logging.info(f"🔹 Processing request: {user_prompt}")
 
         response = client.chat.completions.create(
@@ -89,14 +92,16 @@ def chat():
         )
 
         assistant_reply = response.choices[0].message.content
+        print("ChatGPT reply:", assistant_reply)  # Debug
         logging.info(f"✅ OpenAI Response: {assistant_reply}")
         return jsonify({"response": assistant_reply})
     
     except Exception as e:
+        print("Error:", str(e))  # Debug
         logging.error(f"❌ Error in /chat: {str(e)}")
         return jsonify({"error": f"OpenAI API Error: {str(e)}"}), 500
 
-# ✅ Serve the frontend
+# ✅ Serve the frontend (remove duplicate if not needed)
 @app.route("/", defaults={"path": ""})
 @app.route("/<path:path>")
 def serve(path):
