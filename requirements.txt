@@ -29,3 +29,9 @@ flask-cors
 gunicorn
 openai
 requests
+flask
+flask-cors
+torch
+transformers
+datasets
+numpy
