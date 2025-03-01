@@ -1,24 +1,36 @@
 import torch
-from nanogpt.model import GPT
+from model import GPT, GPTConfig
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 
 app = Flask(__name__, static_folder="frontend/build", static_url_path="/")
 CORS(app, resources={r"/chat": {"origins": "https://chatbotinit-production.up.railway.app"}})
 
-model_config = GPT.get_default_config()
-model_config.model_type = None
-model_config.vocab_size = 55  # From prepare.py
-model_config.block_size = 64
-model = GPT.from_pretrained(model_config, "out-n60ai/ckpt.pt")
+# Match training config
+model_config = GPTConfig(
+    vocab_size=55,
+    block_size=64,
+    n_layer=4,
+    n_head=4,
+    n_embd=128,
+    dropout=0.2,
+    bias=True
+)
+model = GPT(model_config)
+checkpoint = torch.load("out-n60ai/ckpt.pt", map_location="cpu")
+state_dict = checkpoint['model'] if 'model' in checkpoint else checkpoint
+model.load_state_dict(state_dict)
 model.eval()
 
 @app.route("/", defaults={"path": ""})
 @app.route("/<path:path>")
 def serve_react_app(path):
-    if path != "" and os.path.exists(os.path.join(app.static_folder, path)):
-        return send_from_directory(app.static_folder, path)
-    return send_from_directory(app.static_folder, "index.html")
+    try:
+        if path != "" and os.path.exists(os.path.join(app.static_folder, path)):
+            return send_from_directory(app.static_folder, path)
+        return send_from_directory(app.static_folder, "index.html")
+    except Exception as e:
+        return f"Error: {str(e)}", 404
 
 @app.route("/chat", methods=["POST"])
 def chat():
@@ -35,4 +47,5 @@ def chat():
         return jsonify({"error": f"Error: {str(e)}"}), 500
 
 if __name__ == "__main__":
+    print("Starting Flask app...")
     app.run(debug=True, host="0.0.0.0", port=int(os.getenv("PORT", 8080)))
